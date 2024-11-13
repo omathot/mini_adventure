@@ -1,0 +1,28 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://hycg6pedl6l4"]
+
+[ext_resource type="Texture2D" uid="uid://c38j2gqcsotri" path="res://assets/Complete_UI_Essential_Pack_v2.3.2/03_Wood_Theme/Sprites/UI_Wood_Textfield_01.png" id="1_fogsu"]
+[ext_resource type="FontFile" uid="uid://b8l8wrrhkptap" path="res://assets/Font/TTF (16px)/Toriko.ttf" id="1_i5blv"]
+[ext_resource type="Texture2D" uid="uid://doufbjd1vkisj" path="res://assets/Complete_UI_Essential_Pack_v2.3.2/03_Wood_Theme/Sprites/UI_Wood_Banner_02.png" id="2_6dpee"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4gyte"]
+texture = ExtResource("1_fogsu")
+expand_margin_left = 24.0
+expand_margin_top = 24.0
+expand_margin_right = 24.0
+expand_margin_bottom = 24.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cni5s"]
+texture = ExtResource("2_6dpee")
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
+
+[resource]
+BigPanelContainer/base_type = &"PanelContainer"
+BigPanelContainer/styles/panel = SubResource("StyleBoxTexture_4gyte")
+Button/font_sizes/font_size = 32
+Button/fonts/font = ExtResource("1_i5blv")
+Label/font_sizes/font_size = 32
+Label/fonts/font = ExtResource("1_i5blv")
+PanelContainer/styles/panel = SubResource("StyleBoxTexture_cni5s")
