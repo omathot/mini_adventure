@@ -1,0 +1,18 @@
+Floor Type:
+  Grass:
+    Pale | light | Dark | Deep
+  Cave Stone:
+    Paved:
+    - grassy
+  Lime Stone:
+
+  Sand:
+    Dark | Light:
+      Pure
+      Deep
+      Stone
+
+  Water:
+    - Shallow
+    - Regular
+    - Deep
